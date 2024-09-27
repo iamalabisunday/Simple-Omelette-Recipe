@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    margin: 6.25rem;
+}
+
+/* Header-Image */
+
+.photo-container img { 
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+/* Heading-Text */
+
+.heading-text-container {
+    gap: 1.5rem;
+    padding: 3.12rem 0rem;
+}
+.heading-text-container h1 {
+    font-size: 5rem;
+    color: #474747;
+    font-weight: 600;
+}
+.heading-text-container p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+/* Preparation-Section */
+
+.preparation-container {
+    background-color: #FFF7FC;
+    border-radius: 1.5rem;
+    padding: 3.12rem;
+}
+
+.preparation-container h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #5F1F39;
+    line-height: 4rem;
+}
+
+/* Total */
+.point-container {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 125rem;
+    background-color: #5F1F39;
+
+}
+
+.preparation-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 3.12rem;
+    align-items: center;
+}
+
+
+/* ingredients-Section */
+
+.ingredients-container {
+    padding: 3.12rem;
+    border-bottom: 1px solid #A6A6A6;
+}
+
+.ingredients-container h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7D3E2F;
+    line-height: 4rem;
+}
+
+/* Eggs */
+
+.para-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.para-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 3.12rem;
+    align-items: center;
+}
+
+/* Instructions */
+
+.instructions-container {
+    padding: 3.12rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #A6A6A6;
+}
+
+.instructions-fullbody {
+    line-height: 5rem;
+    gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.instructions-container h3 {
+    color: #7D3E2F;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.number-container {
+    color: #7D3E2F;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.instructions-body-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.instructions-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 3.12rem;
+}
+
+/* Nutrition */
+
+.nutrition-container {
+    padding: 3.12rem;
+}
+
+.nutrition-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.nutrition-heading-container h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7D3E2F;
+}
+
+.nutrition-heading-container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.nutrition-value  {
+    width: 6.25rem;
+    height: 3.125rem;
+}
+
+.nutrition-value p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nutrition-number p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #895645;
+}
+
+.nutrition-body-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2.375rem;
+    align-items: center;
+    gap: 25rem;
+    border-bottom: 1px solid #A6A6A6;
+}
+
+.nutrition-body-container-fat {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2.375rem;
+    align-items: center;
+    gap: 25rem;
+}
